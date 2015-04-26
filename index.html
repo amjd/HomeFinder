@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>HomeFinder - Find the best home</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="section hero">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h1>HomeFinder</h1>
+          <h4 class="hero-heading">Find the home of your dreams by selecting three locations that you frequent in the city.</h4>
+          <a class="button button-primary cta" href="">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="continue-1" class="section values">
+    <div class="container">
+      <div class="row">
+        <div class="one-third column value">
+          <h2 class="value-multiplier">Step 1</h2>
+          <h5 class="value-heading">Select locations</h5>
+          <p class="value-description">Select three locations that you frequent in the city so we find an area that will help you reduce those dreadful commute times.</p>
+        </div>
+        <div class="one-third column value">
+          <h2 class="value-multiplier">Step 2</h2>
+          <h5 class="value-heading">Number crunching</h5>
+          <p class="value-description">We crunch numbers to find the area close to all three locations and the attractive places for visiting around it.</p>
+        </div>
+        <div class="one-third column value">
+          <h2 class="value-multiplier">Step 3</h2>
+          <h5 class="value-heading">We suggest the best area</h5>
+          <p class="value-description">We suggest the best area for you to buy or build your home and list out the places worth visiting in the vicinity.</p>
+        </div>
+      </div>
+      <a class="button button-primary button-2" href="">Try it now</a>
+    </div>
+  </div>
+
+  <div id="continue-2" class="section get-help">
+    <div class="container">
+      <h3 class="section-heading">Get started now</h3>
+      <p class="section-description">You are just one step away from finding the home of your dreams.</p>
+      <hr>
+      <div class="row">
+        <div class="six columns">
+          <form action="javascript:void(0);" id="form1" name="form1" method="POST">
+            <div class="row">
+              <p>Start typing the name of a place or locality and select from the list. After that, click anywhere on the map to add a marker at that point.</p>
+              <div class="u-full-width">
+                <label for="place-1">Place 1</label>
+                <input class="u-full-width" placeholder="Koramangala, Bengaluru" id="place-1" type="text">
+              </div>
+            </div>
+            <div class="row">
+              <div class="u-full-width">
+                <label for="place-2">Place 2</label>
+                <input class="u-full-width" placeholder="Malleshwaram, Bengaluru" id="place-2" type="text">
+              </div>
+            </div>
+            <div class="row">
+              <div class="u-full-width">
+                <label for="place-3">Place 3</label>
+                <input class="u-full-width" placeholder="Indiranagar, Bengaluru" id="place-3" type="text">
+              </div>
+            </div>
+            <input class="button-primary" value="Submit" type="submit">
+          </form>
+        </div>
+        <div class="six columns map-container">
+          <div id="map"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="section categories">
+    <div class="container">
+      <h3 class="section-heading">Responsive Images</h3>
+      <p class="section-description">Skeleton images sit easily in grid with .u-max-full-width class. I suggest exploring solution to serving different images based on device size.</p>
+      <div class="row">
+        <div class="one-half column category">
+          <img class="u-max-full-width" src="images/placeholder.png">
+        </div>
+        <div class="one-half column category">
+          <img class="u-max-full-width" src="images/placeholder.png">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/app.js"></script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
